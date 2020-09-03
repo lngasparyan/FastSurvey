@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="102" viewBox="0 0 114 102">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="50%">
+      <stop offset="0%" stop-color="#6060BC" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#6060BC" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(2 -10)">
+    <rect width="112" height="112" fill="url(#a)" rx="56"/>
+    <rect width="27.375" height="27.366" x=".982" y="13.683" stroke="#03F9D5" stroke-width="5.386" rx="3.366" transform="rotate(90 14.67 27.366)"/>
+    <polygon fill="#FFFFFF" fill-rule="nonzero" points="31.193 13.683 14.565 31.131 7.911 23.634 4.74 26.349 14.454 37.293 34.261 16.508"/>
+    <rect width="27.375" height="27.366" x=".982" y="71.634" stroke="#DB3069" stroke-width="5.386" rx="3.366" transform="rotate(90 14.67 85.317)"/>
+    <path stroke="#FFFFFF" stroke-dasharray="8.752" stroke-width="4.039" d="M28.1070566,90.0571216 L17.1740843,82.1620518 L6.54686544,93.502459" transform="rotate(-170.918 17.34 87.83)"/>
+    <g fill-rule="nonzero" transform="translate(28.894 12)">
+      <rect width="29.959" height="24.143" x="43.055" y="7.21" fill="#03F9D5" transform="rotate(45 58.034 19.282)"/>
+      <rect width="14.979" height="24.143" x="55.841" y="12.505" fill="#03E0C0" transform="rotate(45 63.33 24.576)"/>
+      <rect width="14.979" height="10.894" x="4.624" y="59.741" fill="#03F9D5" transform="rotate(45 12.114 65.188)"/>
+      <rect width="7.49" height="10.894" x="11.017" y="62.388" fill="#03E0C0" transform="rotate(45 14.762 67.835)"/>
+      <path fill="#FFFFFF" d="M2.64913783,67.8320138 L8.0416685,67.8320138 L8.0416685,73.4260904 C8.0416685,74.8895598 6.83452055,76.0759162 5.34540316,76.0759162 C3.85629776,76.0759162 2.64913783,74.8895598 2.64913783,73.4260904 L2.64913783,67.8320138 Z" transform="rotate(45 5.345 71.954)"/>
+      <path fill="#F2F2F2" d="M7.64680959,74.5290403 L7.64680959,68.7849835 L4.95054425,68.7849835 L4.95054425,76.8789058 C4.95054425,76.9617276 5.0188739,77.028886 5.10316305,77.028886 C6.50797901,77.028886 7.64680959,75.9096585 7.64680959,74.5290403 Z" transform="rotate(45 6.299 72.907)"/>
+      <rect width="20.971" height="47.402" x="22.246" y="20.876" fill="#03E0C0" transform="rotate(45 32.731 44.577)"/>
+      <rect width="10.485" height="47.402" x="31.196" y="24.582" fill="#03CAAD" transform="rotate(45 36.438 48.283)"/>
+      <rect width="30.857" height="2.355" x="52.946" y="36.144" fill="#03F9D5" transform="rotate(-45 68.375 37.322)"/>
+      <rect width="30.857" height="2.355" x="54.641" y="37.839" fill="#03E0C0" transform="rotate(-45 70.07 39.016)"/>
+      <rect width="6.291" height="4.711" x="72.911" y="24.534" fill="#03F9D5" transform="rotate(45 76.057 26.89)"/>
+      <rect width="6.291" height="2.355" x="73.744" y="24.879" fill="#03E0C0" transform="rotate(45 76.89 26.057)"/>
+    </g>
+  </g>
+</svg>

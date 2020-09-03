@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="102" viewBox="0 0 116 102">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="50%">
+      <stop offset="0%" stop-color="#6060BC" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#6060BC" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(3 -10)">
+    <rect width="112" height="112" fill="url(#a)" rx="56"/>
+    <rect width="27.071" height="27.055" y="13" stroke="#179CFF" stroke-width="5.331" rx="3.332" transform="rotate(90 13.536 26.527)"/>
+    <polygon fill="#FFFFFF" fill-rule="nonzero" points="29.876 13 13.432 30.25 6.852 22.838 3.716 25.522 13.323 36.341 32.91 15.793"/>
+    <rect width="27.071" height="27.055" y="70.293" stroke="#179CFF" stroke-width="5.331" rx="3.332" transform="rotate(90 13.536 83.82)"/>
+    <polygon fill="#FFFFFF" fill-rule="nonzero" points="29.876 70.293 13.432 87.542 6.852 80.13 3.716 82.815 13.323 93.634 32.91 73.085"/>
+    <path fill="#DB3069" d="M84.9041347,94.5259091 C84.7846816,94.7233184 84.9339996,94.9700578 85.1729059,94.9700578 L105.330627,94.9700578 C105.569533,94.9700578 105.718873,94.7233184 105.59942,94.5259091 L95.520539,77.8703317 C95.4010858,77.6729312 95.1024684,77.6729312 94.9830153,77.8703317 L84.9041347,94.5259091 Z M98.6362589,72.5914634 L111.516462,94.695122 C112.890348,97.0528455 111.172961,100 108.42519,100 L82.6648346,100 C79.9170593,100 78.1997041,97.0528455 79.5735898,94.695122 L92.4537931,72.5914634 C93.8276788,70.2337398 97.2623732,70.2337398 98.6362589,72.5914634 Z"/>
+    <rect width="27.071" height="27.055" x="82.806" y="13" stroke="#03F9D5" stroke-width="5.331" rx="13.527" transform="rotate(90 96.341 26.527)"/>
+    <path stroke="#FFFFFF" stroke-dasharray="6.36" stroke-width="5.088" d="M39.2796209 26.7926829L77.4976303 26.7926829M39.2796209 84.0853659L77.4976303 84.0853659"/>
+  </g>
+</svg>
