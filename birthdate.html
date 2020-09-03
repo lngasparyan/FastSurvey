@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SurveyTime</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="birthdate wrapper d-flex flex-column justify-content-between">
+    <header>
+        <div class="container">
+            <div class="row align-items-center justify-content-between flex-lg-row flex-md-column flex-sm-column">
+                <div class="logo prof">
+                    <a href="index.html">
+                        <img src="img/logo.png">
+                    </a>
+                </div>
+                <div class="line prof">
+                    <div class="active_line"></div>
+                    <div class="line-placeholder">
+                        0% -QUESTION 1 OF 2
+                    </div>
+                </div>
+                <div class="right-items d-flex">
+                    <div class="lang prof">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/50162f60f2cd5ba81c94bbd8ec32dee0.svg">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <button class="dropdown-item active"><img src="img/3a5b5ac1ac98c76572f65c1ddd6dcadf.svg"
+                                                                          alt="中国">中国
+                                </button>
+                                <button class="dropdown-item"><img src="img/50162f60f2cd5ba81c94bbd8ec32dee0.svg"
+                                                                   alt="English">English
+                                </button>
+                                <button class="dropdown-item"><img src="img/e2037a0ebc084965c2c2744c68bd5837.svg"
+                                                                   alt="Русский">Русский
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="logout">
+                        <div class="prof">
+                            <div class="cell shrink"><span class="isvg loaded logout-link">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1___CJEpMe0G"
+     x="0px" y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve" width="25px"
+     height="40px" class=""><g transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 330 330)"><g id="XMLID_2____CJEpMe0G">
+	<path id="XMLID_4____CJEpMe0G"
+          d="M51.213,180h173.785c8.284,0,15-6.716,15-15s-6.716-15-15-15H51.213l19.394-19.393   c5.858-5.857,5.858-15.355,0-21.213c-5.856-5.858-15.354-5.858-21.213,0L4.397,154.391c-0.348,0.347-0.676,0.71-0.988,1.09   c-0.076,0.093-0.141,0.193-0.215,0.288c-0.229,0.291-0.454,0.583-0.66,0.891c-0.06,0.09-0.109,0.185-0.168,0.276   c-0.206,0.322-0.408,0.647-0.59,0.986c-0.035,0.067-0.064,0.138-0.099,0.205c-0.189,0.367-0.371,0.739-0.53,1.123   c-0.02,0.047-0.034,0.097-0.053,0.145c-0.163,0.404-0.314,0.813-0.442,1.234c-0.017,0.053-0.026,0.108-0.041,0.162   c-0.121,0.413-0.232,0.83-0.317,1.257c-0.025,0.127-0.036,0.258-0.059,0.386c-0.062,0.354-0.124,0.708-0.159,1.069   C0.025,163.998,0,164.498,0,165s0.025,1.002,0.076,1.498c0.035,0.366,0.099,0.723,0.16,1.08c0.022,0.124,0.033,0.251,0.058,0.374   c0.086,0.431,0.196,0.852,0.318,1.269c0.015,0.049,0.024,0.101,0.039,0.15c0.129,0.423,0.28,0.836,0.445,1.244   c0.018,0.044,0.031,0.091,0.05,0.135c0.16,0.387,0.343,0.761,0.534,1.13c0.033,0.065,0.061,0.133,0.095,0.198   c0.184,0.341,0.387,0.669,0.596,0.994c0.056,0.088,0.104,0.181,0.162,0.267c0.207,0.309,0.434,0.603,0.662,0.895   c0.073,0.094,0.138,0.193,0.213,0.285c0.313,0.379,0.641,0.743,0.988,1.09l44.997,44.997C52.322,223.536,56.161,225,60,225   s7.678-1.464,10.606-4.394c5.858-5.858,5.858-15.355,0-21.213L51.213,180z"
+          data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"></path>
+	<path id="XMLID_5____CJEpMe0G"
+          d="M207.299,42.299c-40.944,0-79.038,20.312-101.903,54.333c-4.62,6.875-2.792,16.195,4.083,20.816   c6.876,4.62,16.195,2.794,20.817-4.083c17.281-25.715,46.067-41.067,77.003-41.067C258.414,72.299,300,113.884,300,165   s-41.586,92.701-92.701,92.701c-30.845,0-59.584-15.283-76.878-40.881c-4.639-6.865-13.961-8.669-20.827-4.032   c-6.864,4.638-8.67,13.962-4.032,20.826c22.881,33.868,60.913,54.087,101.737,54.087C274.956,287.701,330,232.658,330,165   S274.956,42.299,207.299,42.299z"
+          data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"></path>
+</g></g> </svg>
+</span></div>
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+    <main class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="question">
+                        <span>1.</span>
+                        Please tell us your birth date
+                    </div>
+                    <form class="date-select-block justify-content-between flex-wrap form-inline">
+                        <select id="day_select" class="d-select form-control">
+                            <option value="" hidden selected disabled>Day</option>
+                            <option datatype="1" value="1">1</option>
+                            <option datatype="2" value="2">2</option>
+                            <option datatype="3" value="3">3</option>
+                            <option datatype="4" value="4">4</option>
+                            <option datatype="5" value="5">5</option>
+                            <option datatype="6" value="6">6</option>
+                            <option datatype="7" value="7">7</option>
+                            <option datatype="8" value="8">8</option>
+                            <option datatype="9" value="9">9</option>
+                            <option datatype="10" value="10">10</option>
+                            <option datatype="11" value="11">11</option>
+                            <option datatype="12" value="12">12</option>
+                            <option datatype="13" value="13">13</option>
+                            <option datatype="14" value="14">14</option>
+                            <option datatype="15" value="15">15</option>
+                            <option datatype="16" value="16">16</option>
+                            <option datatype="17" value="17">17</option>
+                            <option datatype="18" value="18">18</option>
+                            <option datatype="19" value="19">19</option>
+                            <option datatype="20" value="20">20</option>
+                            <option datatype="21" value="21">21</option>
+                            <option datatype="22" value="22">22</option>
+                            <option datatype="23" value="23">23</option>
+                            <option datatype="24" value="24">24</option>
+                            <option datatype="25" value="25">25</option>
+                            <option datatype="26" value="26">26</option>
+                            <option datatype="27" value="27">27</option>
+                            <option datatype="28" value="28">28</option>
+                            <option datatype="29" value="29">29</option>
+                            <option datatype="30" value="30">30</option>
+                            <option datatype="31" value="31">31</option>
+
+                        </select>
+                        <select id="month_select" class="d-select form-control">
+                            <option value="" hidden selected disabled>Month</option>
+                            <option value="01" datatype="Jan">January</option>
+                            <option value="02" datatype="Feb">February</option>
+                            <option value="03" datatype="Mar">March</option>
+                            <option value="04" datatype="Apr">April</option>
+                            <option value="05" datatype="May">May</option>
+                            <option value="06" datatype="Jun">June</option>
+                            <option value="07" datatype="Jul">July</option>
+                            <option value="08" datatype="Aug">August</option>
+                            <option value="09" datatype="Sep">September</option>
+                            <option value="10" datatype="Oct">October</option>
+                            <option value="11" datatype="Nov">November</option>
+                            <option value="12" datatype="Dec">December</option>
+                        </select>
+                        <select id="year_select" class="d-select form-control">
+                            <option value="" hidden selected disabled>Year</option>
+                        </select>
+                    </form>
+                    <div id="under_13_err">Users under the age of 13 can't subscribe</div>
+                    <div class="font-weight-bold date-show mt-md-5 mt-md-2 mt-sm-5">
+                        <span class="day_select" id="day"></span>
+                        <span class="month_select" id="month"></span>
+                        <span class="year_select" id="year"></span>
+                    </div>
+                    <div class="date-btn">
+                        <a id="date_btn" href="gender.html" class="main-button disabled_btn">
+                            <span class="text mx-auto">NEXT</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-5">
+                    <div id="y-img">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="footer-item">
+                    <a href="privacy-policy.html">
+                        Privacy Policy
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="terms.html">
+                        Terms of Service
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="faq.html">
+                        FAQ's
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#">
+                        Affiliates
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<div class="svg_bg">
+    <span class="isvg loaded svg-backround"><svg height="768" viewBox="0 0 1313 768" width="1313"
+                                                 xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"
+                                                                                       opacity=".15"><g stroke="#fff"
+                                                                                                        stroke-width="4"><circle
+            cx="677" cy="162" r="8"></circle><circle cx="1021" cy="250" r="8"></circle><circle cx="1109" cy="554"
+                                                                                               r="8"></circle><circle
+            cx="115" cy="355" r="8"></circle><circle cx="26" cy="104" r="8"></circle><circle cx="10" cy="737"
+                                                                                             r="8"></circle><circle
+            cx="844" cy="766" r="8"></circle></g><path
+            d="m900.609375 642.617188c.260418.286459.390625.624998.390625 1.015624 0 .390627-.130207.716145-.390625.976563s-.585936.390625-.976563.390625c-.390626 0-.729165-.130207-1.015624-.390625l-5.117188-5.117187-5.117188 5.117187c-.286459.260418-.611977.390625-.976562.390625s-.690103-.130207-.976562-.390625c-.28646-.260418-.429688-.585936-.429688-.976563 0-.390626.143228-.729165.429688-1.015624l5.078124-5.117188-5.078124-5.117188c-.28646-.286459-.429688-.624998-.429688-1.015624 0-.390627.143228-.716145.429688-.976563.286459-.260418.611977-.390625.976562-.390625s.690103.130207.976562.390625l5.117188 5.117187 5.117188-5.117187c.286459-.260418.624998-.390625 1.015624-.390625.390627 0 .716145.130207.976563.390625s.390625.585936.390625.976563c0 .390626-.130207.729165-.390625 1.015624l-5.117187 5.117188zm314.000005-560.0000005c.26041.2864598.39062.624998.39062 1.015625s-.13021.7161445-.39062.9765625c-.26042.260418-.58594.390625-.97657.390625-.39062 0-.72916-.130207-1.01562-.390625l-5.11719-5.1171875-5.11719 5.1171875c-.28646.260418-.61197.390625-.97656.390625s-.6901-.130207-.97656-.390625-.42969-.5859355-.42969-.9765625.14323-.7291652.42969-1.015625l5.07812-5.1171875-5.07812-5.1171875c-.28646-.2864598-.42969-.624998-.42969-1.015625s.14323-.7161445.42969-.9765625.61197-.390625.97656-.390625.6901.130207.97656.390625l5.11719 5.1171875 5.11719-5.1171875c.28646-.260418.625-.390625 1.01562-.390625.39063 0 .71615.130207.97657.390625.26041.260418.39062.5859355.39062.9765625s-.13021.7291652-.39062 1.015625l-5.11719 5.1171875zm-384.000005-70c.260418.2864598.390625.624998.390625 1.015625s-.130207.7161445-.390625.9765625-.585936.390625-.976563.390625c-.390626 0-.729165-.130207-1.015624-.390625l-5.117188-5.1171875-5.117188 5.1171875c-.286459.260418-.611977.390625-.976562.390625s-.690103-.130207-.976562-.390625c-.28646-.260418-.429688-.5859355-.429688-.9765625s.143228-.7291652.429688-1.015625l5.078124-5.1171875-5.078124-5.1171875c-.28646-.28645977-.429688-.62499805-.429688-1.015625s.143228-.71614453.429688-.9765625c.286459-.26041797.611977-.390625.976562-.390625s.690103.13020703.976562.390625l5.117188 5.1171875 5.117188-5.1171875c.286459-.26041797.624998-.390625 1.015624-.390625.390627 0 .716145.13020703.976563.390625s.390625.58593555.390625.9765625-.130207.72916523-.390625 1.015625l-5.117187 5.1171875zm-816 197.0000005c.260418.286459.390625.624998.390625 1.015624 0 .390627-.130207.716145-.390625.976563s-.5859355.390625-.9765625.390625-.7291652-.130207-1.015625-.390625l-5.1171875-5.117187-5.1171875 5.117187c-.28645977.260418-.61197734.390625-.9765625.390625s-.69010273-.130207-.9765625-.390625-.4296875-.585936-.4296875-.976563c0-.390626.14322773-.729165.4296875-1.015624l5.078125-5.117188-5.078125-5.117188c-.28645977-.286459-.4296875-.624998-.4296875-1.015624 0-.390627.14322773-.716145.4296875-.976563s.61197734-.390625.9765625-.390625.69010273.130207.9765625.390625l5.1171875 5.117187 5.1171875-5.117187c.2864598-.260418.624998-.390625 1.015625-.390625s.7161445.130207.9765625.390625.390625.585936.390625.976563c0 .390626-.130207.729165-.390625 1.015624l-5.1171875 5.117188zm155 448c.260418.286459.390625.624998.390625 1.015624 0 .390627-.130207.716145-.390625.976563s-.585936.390625-.976563.390625c-.390626 0-.729165-.130207-1.015624-.390625l-5.117188-5.117187-5.117188 5.117187c-.286459.260418-.611977.390625-.976562.390625s-.690103-.130207-.976562-.390625c-.28646-.260418-.429688-.585936-.429688-.976563 0-.390626.143228-.729165.429688-1.015624l5.078124-5.117188-5.078124-5.117188c-.28646-.286459-.429688-.624998-.429688-1.015624 0-.390627.143228-.716145.429688-.976563.286459-.260418.611977-.390625.976562-.390625s.690103.130207.976562.390625l5.117188 5.117187 5.117188-5.117187c.286459-.260418.624998-.390625 1.015624-.390625.390627 0 .716145.130207.976563.390625s.390625.585936.390625.976563c0 .390626-.130207.729165-.390625 1.015624l-5.117187 5.117188zm256-56c.260418.286459.390625.624998.390625 1.015624 0 .390627-.130207.716145-.390625.976563s-.585936.390625-.976563.390625c-.390626 0-.729165-.130207-1.015624-.390625l-5.117188-5.117187-5.117188 5.117187c-.286459.260418-.611977.390625-.976562.390625s-.690103-.130207-.976562-.390625c-.28646-.260418-.429688-.585936-.429688-.976563 0-.390626.143228-.729165.429688-1.015624l5.078124-5.117188-5.078124-5.117188c-.28646-.286459-.429688-.624998-.429688-1.015624 0-.390627.143228-.716145.429688-.976563.286459-.260418.611977-.390625.976562-.390625s.690103.130207.976562.390625l5.117188 5.117187 5.117188-5.117187c.286459-.260418.624998-.390625 1.015624-.390625.390627 0 .716145.130207.976563.390625s.390625.585936.390625.976563c0 .390626-.130207.729165-.390625 1.015624l-5.117187 5.117188zm-296-422c.260418.286459.390625.624998.390625 1.015624 0 .390627-.130207.716145-.390625.976563s-.585936.390625-.976563.390625c-.390626 0-.729165-.130207-1.015624-.390625l-5.117188-5.117187-5.117188 5.117187c-.286459.260418-.611977.390625-.976562.390625s-.690103-.130207-.976562-.390625c-.28646-.260418-.429688-.585936-.429688-.976563 0-.390626.143228-.729165.429688-1.015624l5.078124-5.117188-5.078124-5.117188c-.28646-.286459-.429688-.624998-.429688-1.015624 0-.390627.143228-.716145.429688-.976563.286459-.260418.611977-.390625.976562-.390625s.690103.130207.976562.390625l5.117188 5.117187 5.117188-5.117187c.286459-.260418.624998-.390625 1.015624-.390625.390627 0 .716145.130207.976563.390625s.390625.585936.390625.976563c0 .390626-.130207.729165-.390625 1.015624l-5.117187 5.117188zm945.000005 247c.26041.286459.39062.624998.39062 1.015624 0 .390627-.13021.716145-.39062.976563-.26042.260418-.58594.390625-.97657.390625-.39062 0-.72916-.130207-1.01562-.390625l-5.11719-5.117187-5.11719 5.117187c-.28646.260418-.61197.390625-.97656.390625s-.6901-.130207-.97656-.390625-.42969-.585936-.42969-.976563c0-.390626.14323-.729165.42969-1.015624l5.07812-5.117188-5.07812-5.117188c-.28646-.286459-.42969-.624998-.42969-1.015624 0-.390627.14323-.716145.42969-.976563s.61197-.390625.97656-.390625.6901.130207.97656.390625l5.11719 5.117187 5.11719-5.117187c.28646-.260418.625-.390625 1.01562-.390625.39063 0 .71615.130207.97657.390625.26041.260418.39062.585936.39062.976563 0 .390626-.13021.729165-.39062 1.015624l-5.11719 5.117188z"
+            fill="#fff" transform="translate(98 -3)"></path><g stroke="#fff" stroke-width="4"><g stroke-linecap="round"
+                                                                                                 stroke-linejoin="round"
+                                                                                                 transform="translate(327 96)"><path
+            d="m10 0 10 16h-20z"></path><path d="m146 154 10 16h-20z"></path><path d="m907 83 10 16h-20z"></path><path
+            d="m403 427 10 16h-20z"></path><path d="m959 592 10 16h-20z"></path><path d="m530 8 10 16h-20z"></path></g><g><rect
+            height="16" rx="4" width="16" x="276" y="478"></rect><rect height="16" rx="4" width="16" x="174"
+                                                                       y="24"></rect><rect height="16" rx="4" width="16"
+                                                                                           x="1229" y="505"></rect><rect
+            height="16" rx="4" width="16" x="1090" y="49"></rect><rect height="16" rx="4" width="16" x="378"
+                                                                       y="201"></rect></g></g></g></svg></span>
+    <span class="isvg loaded wave-backround"><svg width="1366" height="768" viewBox="0 0 1366 768" fill="none"
+                                                  xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0___wQnu3Ywq)">
+<path fill-rule="evenodd" clip-rule="evenodd"
+      d="M0 0H758H1431C1790 0 1985.13 403.261 2292 600C2598.87 796.739 2498.7 770.754 2292 784C2085.3 797.246 1868.5 648 1543 648C1217.5 648 1244 824 940 824C636 824 426 600 284 600C189.333 600 94.6667 661.333 0 784V0Z"
+      fill="url(#paint0_linear___wQnu3Ywq)"></path>
+</g>
+<defs>
+<linearGradient id="paint0_linear___wQnu3Ywq" x1="1243.19" y1="231.997" x2="1243.19" y2="824"
+                gradientUnits="userSpaceOnUse">
+<stop stop-color="#9090CF" stop-opacity="0"></stop>
+<stop offset="1" stop-color="#03F9D5" stop-opacity="0.3"></stop>
+</linearGradient>
+<clipPath id="clip0___wQnu3Ywq">
+<rect width="1366" height="768" fill="white"></rect>
+</clipPath>
+</defs>
+</svg>
+</span>
+</div>
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/birthdate.js"></script>
+</body>
+</html>
